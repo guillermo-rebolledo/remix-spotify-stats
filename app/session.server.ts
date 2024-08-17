@@ -17,6 +17,8 @@ export const sessionStorage = createCookieSessionStorage({
   },
 });
 
+export const { commitSession, destroySession } = sessionStorage;
+
 const USER_SESSION_KEY = "userId";
 
 export async function getSession(request: Request) {

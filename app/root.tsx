@@ -12,6 +12,8 @@ import {
 
 import { getUser } from "~/session.server";
 import stylesheet from "~/tailwind.css";
+import "@fontsource-variable/open-sans/index.css";
+import "@fontsource/libre-baskerville/index.css";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
